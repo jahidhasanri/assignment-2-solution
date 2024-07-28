@@ -1,0 +1,143 @@
+/* common style start here */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Pinyon+Script&display=swap');
+.inter-font {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+  }
+  
+  .pinyon-script-regular {
+    font-family: "Pinyon Script";
+    font-weight: 400;
+    font-style: normal;
+  }
+.body{
+background: rgb(12, 12, 12);
+}
+/* common style end here */
+/* header part style start here */
+/* navbar part start here */
+header{
+    max-width: 1440px;
+    height: 715px;
+    border: 2px solid  red;
+    margin: 0 auto;
+    background: linear-gradient(180.00deg, rgb(17, 17, 17),rgba(119, 119, 119, 0) 100%);
+}
+.navbar{
+    max-width: 1060px;
+    max-height: 46px;
+    border: 2px solid yellow;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 65px;
+    margin-bottom: 25px;
+
+}
+.nav-heading{
+    color: rgb(230, 83, 60);
+    font-family: Inter;
+    font-size: 36px;
+    font-weight: 800;
+    line-height: 120%;
+    text-align: left;
+}
+.nav-menubar{
+    display: flex;
+    gap: 47px;
+   
+}
+.nav-menubar li{
+    list-style: none;
+}
+.nav-menubar a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 120%;
+}
+.home{
+    width: 92px;
+    height: 38px;
+    padding: 8px 20px 8px 20px;
+    border-radius: 46px;
+    background: rgb(230, 83, 60);
+}
+#about{
+    margin-right: 14px;
+}
+/* navbar part end here */
+/* banner part start here */
+.banner-section{
+   max-width: 1060px;
+   height: 570px;
+   border: 2px solid green;
+   margin: 0 auto;
+}
+.banner{
+    display: flex;
+}
+
+.all-information{
+    margin: 95px 167px 0 0;
+    width: 520px;
+    height: 440px;
+    border: 2px solid magenta;
+}
+.all-information h1{
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 75px;
+    font-weight: 900;
+    line-height: 100%;
+    text-align: top;
+    margin-bottom:5px;
+}
+.all-information p{
+    color: rgba(255, 255, 255, 0.5);
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.5px;
+    text-align: left;
+}
+
+.banner-img{
+   width: 349px;
+   height: 570px;
+    border: 2px solid green;
+} 
+.btn1{
+width: 224px;
+height: 54px;
+padding: 16px 40px 16px 40px;
+margin: 0px 14px;
+border-radius: 42px;
+background: rgb(230, 83, 60);
+color: rgb(255, 255, 255);
+font-family: Inter;
+font-size: 18px;
+font-weight: 600;
+line-height: 22px;
+text-align: left;
+}
+.btn2{
+    /* Button */
+width: 224px;
+height: 54px;
+padding: 16px 40px 16px 40px;
+margin: 0px 14px;
+border: 1px solid rgb(255, 255, 255);
+border-radius: 42px;
+
+}
+
+/* banner part end here */
+
+/* header part style end here
