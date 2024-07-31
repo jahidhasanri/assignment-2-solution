@@ -100,7 +100,67 @@
         visibility: visible;
     }
     /* banner responsive ends */
+    /* habit part responsive start */
+    .change-habit{
+        margin-top: 0px;
+    }
+    .habit-info h3{
+        font-size: 32px;
+        font-weight: 900;
+        line-height: 120%;
+    }
+    .habit-info p{
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 24px;
+        text-align: center;
+    }
+    .habit-images{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        gap: 40px;
+        margin: 0 auto;
+    }
+    .card{
+       margin: 0 auto;
+    }
+    /* habit part respnosive ends */
+    /* Run an Extra Mile Easily section responsive start here */
+    .run-and-mile{
+        max-width: 66rem;
+        flex-direction: column;
+        margin-top: 66px;
+    }
+    .run-and-mile-all-info{
+        margin: 0 33px 31px 33px;
+    }
+    .run-and-mile-all-info h4{
+        font-size: 32px;
+        font-weight: 900;
+        line-height: 120%;
+        letter-spacing: 0%;
+        text-align: left;
+    }
+    .btn-modify{
+        width: 17.93rem;
+        margin-left: 20px;
+    }
+    .run-and-mile-img{
+        width: 330px;
+        height: 170px;
+        margin: 0 auto;
+    }
+    .run-and-mile-img img{
+        width: 100%;
+        height: 100%; 
+        margin-top: 0px;
+        object-position: 100% 20%;
+        zoom: 28%;
+    }
+    /* Run an Extra Mile Easily section responsive ends here */
 }
+
+
 @media screen and (max-width:375px) {
     .box1{
        margin-left: -900px;
