@@ -1,0 +1,111 @@
+/* navbar responsive part start here for mobile*/
+@media screen and (max-width:576px) {
+    .nav-menubar{
+       display: none;
+    }
+    .menubar-icon{
+        display: block;
+        margin-right: 23px;
+    }
+    /* banner responsive start */
+    .banner{
+        flex-direction: column;
+    }
+    .banner-all-info{
+        max-width: 100%;
+    }
+    .banner-all-info h3{
+        font-size: 36px;
+        font-weight: 900;
+    }
+    .banner-all-info p{
+        margin-right: 70px;
+    }
+    .button{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+    }
+    .btn1{
+        width:169px;
+        height: 54px;
+        white-space: nowrap;
+        margin: 0 auto;
+        /* margin-left:0px; */
+    }
+    .btn1 a{
+        text-align: left;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .btn2{
+        width:169px;
+        height: 54px; 
+        white-space: nowrap;
+        margin: 0 auto;
+        margin-left:-30px;
+    }
+    .btn2 a{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .banner-img{
+        max-width:100%;
+    }
+    .box1{
+        width: 146px;
+        height: 74px;
+       white-space: nowrap;
+       margin-left: -875px;
+       margin-top: 290px;   
+    }
+    .box1 h4{
+        font-size: 38.24px;
+        font-weight: 900;
+    }
+    .box1 p{
+        font-size: 9.83px;
+        font-weight: 400;
+        line-height: 15px;
+    }
+    .box2{
+        width: 155.72px;
+        height: 72.5px;
+        margin-left: 10px;
+        margin-top: -315px;
+       
+    }
+    .box2 h6{
+        font-size: 18.14px;
+        font-weight: 900;
+        line-height: 18.14px;
+    }
+    .box2 p{
+        color: rgba(239, 237, 232, 0.65);
+        font-family: Inter;
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 18px;
+        letter-spacing: 0.3px;
+    }
+
+    .icon{
+        color: wheat;
+        position: absolute;
+        margin-left: 15px;
+        margin-top: 13px;
+        visibility: visible;
+    }
+    /* banner responsive ends */
+}
+@media screen and (max-width:375px) {
+    .box1{
+       margin-left: -900px;
+       margin-top: 358px;   
+    }
+}
+
+/* navbar responsive part end here for mobile */
