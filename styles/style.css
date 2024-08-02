@@ -532,3 +532,179 @@ option{
     margin-bottom: 52px;
 }
 /* BMI Calculator section ends here */
+/* meet out team section start here */
+.meet-our-team{
+    max-width: 66.25rem;
+    margin: 0 auto;
+}
+.meet-our-team-info{
+    max-width: 41.93rem;
+    margin: 0 auto;
+}
+.meet-our-team h4{
+color: rgb(255, 255, 255);
+font-family: Inter;
+font-size: 48px;
+font-weight: 900;
+line-height: 120%;
+letter-spacing: 0%;
+margin: 0 auto;
+text-align: center;
+margin-bottom: 14px;
+
+}
+.meet-our-team p{
+    color: rgba(255, 255, 255, 0.5);
+font-family: Inter;
+font-size: 14px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0.3px;
+text-align: center;
+margin-bottom: 58px;
+}
+.meet-our-team-img{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 20px;
+}
+.img{
+    width: 20.41rem;
+    height: 17rem;
+    position: relative;
+}
+.img img{
+    width: 100%;
+    height:100%;
+    border-radius: 18px;
+    background: rgba(0, 0, 0, 0.2),url(image);
+    object-fit: cover;
+}
+.img-deta{
+    width: 200px;
+    position: absolute;
+    margin-top: -60px;
+    margin-left: 15px;
+}
+.img-deta h6{
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 80%;
+    letter-spacing: 0%;
+    margin: 0 auto;
+    text-align:left;
+}
+.img-deta p{
+    color: rgba(255, 255, 255, 0.5);
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.3px;
+    text-align:left;
+    margin: 0 auto;
+    margin-top:5px;
+}
+/* meet out team section ends here */
+/* unique section start here */
+.join-gym{
+    width: 66.25rem;
+    margin: 0 auto;
+    margin-top: 75px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2%;
+    background: rgb(34, 34, 34);
+    margin-bottom:66px;
+}
+.gym-img{
+    width: 40.5%;
+    height: auto;
+    object-fit: cover;
+}
+.gym-img img{
+    width: 100%;
+}
+.information{
+    /* width: 60%; */
+}
+.information h4{
+    color: rgb(255, 255, 255);
+    font-size: 48px;
+    font-weight: 900;
+    line-height: 120%;
+    letter-spacing: 0%;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 3px;
+}
+.information h5{
+    color: rgb(223, 18, 18);
+    font-size: 48px;
+    font-weight: 900;
+    line-height: 120%;
+    letter-spacing: 0%;
+    margin: 0 auto;
+    text-align:center;
+    margin-bottom: 10px;
+}
+.information p{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.3px;
+    text-align:center;
+    margin: 0 auto;
+    margin-bottom: 30px;
+}
+.your-info{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 10px;
+    margin-bottom:30px;
+}
+.your-input{
+    padding: 12px 40px 12px 20px;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.1);
+    color: rgba(255, 255, 255, 0.6);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0px;
+    text-align: left;
+    gap: 15px;
+}
+.gym-btn{
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 22px;
+    letter-spacing: 0px;
+    text-align: left;
+    width: 240px;
+    height: 54px;
+    border-radius: 42px;
+    padding: 16px 40px 16px 40px;
+    background: rgb(230, 83, 60);
+    margin: 0 auto;
+    margin-left: 180px;
+}
+.gym-btn a{
+    text-decoration: none;
+     color: rgb(255, 255, 255);
+ }
+/* unique section ends here */
+/* footer part start here */
+footer{
+    
+    max-width: 90rem;
+    border: 2px solid red;
+    margin: 0 auto;
+    background: rgba(255, 255, 255, 0.1);
+}
+/* footer part ends here */
