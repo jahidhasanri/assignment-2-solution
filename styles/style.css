@@ -374,3 +374,161 @@ margin-top: 10px;
     margin: 40px 32px 29px 0;
 }
 /* Run an Extra Mile Easily section ends here */
+/* <!-- Trainings and Exercises section start here --> */
+/* .training-exercises{
+    max-width: 66.25rem;
+    margin: 0 auto;
+    border: 2px solid red;
+    margin-top: 100px;
+    margin-bottom: 88px;
+} */
+/* <!-- Trainings and Exercises section ends here --> */
+/* BMI Calculator section start here */
+.bmi-info{
+    max-width: 41.9rem;
+    margin: 0 auto;
+    margin-bottom: 85px;
+    margin-top: 78px;
+}
+.bmi-info h4{
+    color: rgb(255, 255, 255);
+    font-size: 48px;
+    font-weight: 900;
+    line-height: 120%;
+    letter-spacing: 0%;
+    text-align: left;
+    margin: 0 auto;
+    margin-bottom: 14px;
+}
+.bmi-info p{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.3px;
+    text-align: left;
+}
+/* new */
+.bmi-calculator{
+    max-width: 90rem;
+    margin: 0 auto;
+    background: rgb(34, 34, 34);
+    display: flex;
+    margin-bottom: 88px;
+}
+.bmi-Calculator-Chart{
+    max-width: 19.37rem;
+    margin-left: 189px;
+    margin-right: 175px;
+}
+.bmi-Calculator-Chart h6{
+    color: rgb(255, 255, 255);
+    font-size: 28px;
+    font-weight: 900;
+    line-height: 120%;
+    letter-spacing: 0%;
+    text-align: left;
+    margin: 0 auto;
+    margin-bottom: 52px;
+    margin-top: 52px;
+}
+table{
+    width: 310px;
+    height: 216px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-collapse: collapse;
+    
+}
+th{
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 120%;
+    letter-spacing: 0%;
+    text-align:left;
+    padding-left: 20px;
+    margin-bottom: 20px;
+}
+
+td{
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    margin-right: 18px;
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 120%;
+    letter-spacing: 0%;
+    text-align: left;
+    padding-left: 20px;
+}
+.Calculate-your-BMI{
+    width: 36rem;
+    margin-left: 10px;
+}
+.Calculate-your-BMI h6{
+    color: rgb(255, 255, 255);
+    font-size: 28px;
+    font-weight: 900;
+    line-height: 120%;
+    letter-spacing: 0%;
+    text-align: left;
+    margin: 0 auto;
+    margin-bottom: 14px;
+    margin-top: 52px;
+}
+.Calculate-your-BMI p{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.3px;
+    text-align: left;
+    margin-bottom: 34px;
+}
+.all-inputs{
+    width: 100%;
+}
+.all-input{
+    width: 100%;
+    display: grid;
+    grid-template-columns:1fr 1fr;
+    gap: 10px;
+    
+}
+.input{
+    padding: 12px 40px 12px 20px;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.1);
+    color: rgba(255, 255, 255, 0.6);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0px;
+    text-align: left;
+    gap: 15px;
+    
+}
+.input4{
+    /* width: 170.5px;
+    height: 48px; */
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.1);
+    color: rgba(255, 255, 255, 0.6);
+    color: rgba(255, 255, 255, 0.6);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0px;
+    text-align: left;
+    padding: 12px 40px 12px 20px;
+}
+option{
+    color: rgb(90, 81, 81);
+}
+.calculate-btn{
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 52px;
+}
+/* BMI Calculator section ends here */

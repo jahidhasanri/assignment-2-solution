@@ -1,5 +1,8 @@
 /* navbar responsive part start here for mobile*/
 @media screen and (max-width:576px) {
+    .navbar{
+        margin-left: 20px;
+    }
     .nav-menubar{
        display: none;
     }
@@ -10,6 +13,7 @@
     /* banner responsive start */
     .banner{
         flex-direction: column;
+        margin-left: 20px;
     }
     .banner-all-info{
         max-width: 100%;
@@ -25,13 +29,13 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        gap: 20px;
+       gap: 40px;
     }
     .btn1{
         width:169px;
         height: 54px;
         white-space: nowrap;
-        margin: 0 auto;
+        /* margin: 0 auto; */
         /* margin-left:0px; */
     }
     .btn1 a{
@@ -54,13 +58,14 @@
     }
     .banner-img{
         max-width:100%;
+        margin-right: 25px;
     }
     .box1{
         width: 146px;
         height: 74px;
        white-space: nowrap;
        margin-left: -875px;
-       margin-top: 290px;   
+       margin-top: 210px;   
     }
     .box1 h4{
         font-size: 38.24px;
@@ -142,8 +147,8 @@
         text-align: left;
     }
     .btn-modify{
-        width: 17.93rem;
-        margin-left: 20px;
+        width: 350px;
+        /* margin-left: 20px; */
     }
     .run-and-mile-img{
         width: 330px;
@@ -158,6 +163,63 @@
         zoom: 28%;
     }
     /* Run an Extra Mile Easily section responsive ends here */
+    /* BMI Calculator section start here */
+    .bmi-info{
+       
+        margin-bottom: 32px;
+        margin-left: 20px;
+      
+    }
+    .bmi-info h4{
+        font-size: 32px;
+        margin-left: 10px;
+    }
+    .bmi-info p{
+        font-size: 13px;
+        font-weight: 400;
+        line-height: 22px;
+        text-align: left;
+        margin-right: 60px;
+        margin-left: 10px;
+    }
+
+    .bmi-calculator{
+        flex-direction: column;
+    }
+    .bmi-Calculator-Chart{
+        margin-left: 0px;
+        margin-right: 0px;
+        margin-left: 25px;
+    }
+    .bmi-Calculator-Chart h6{
+        font-size: 16px;
+        margin-bottom: 23px;
+        margin-top: 34px;
+    }
+    .Calculate-your-BMI{
+        width: 22.12rem;
+    
+    }
+
+    .Calculate-your-BMI h6{
+        font-size: 16px;
+        margin-bottom: 14px;
+        margin-top: 42px;
+        margin-left: 10px;
+    }
+    .Calculate-your-BMI p{
+        margin-left: 10px;
+        margin-right: 40px;
+    }
+    .all-input{
+        width: 100%;
+        gap: 10px;
+        
+    }
+    .input{
+        width: 60%;
+    }
+    /* MI Calculator section ends here */ */
 }
 
 
