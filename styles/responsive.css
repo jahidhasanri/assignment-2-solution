@@ -224,19 +224,28 @@
     .meet-our-team-info{
         max-width: 20rem;
         margin: 0 auto;
-        margin-bottom: 37px;
+        margin-bottom: 2px;
     }
     .meet-our-team h4{
         font-size: 32px;
         font-weight: 900;
         text-align: center;
         }
+        .meet-our-team p{
+        margin-bottom: 37px;
+        }
     .meet-our-team-img{
             grid-template-columns: repeat(1,1fr);
             margin: 0 auto;
+            /* display: block; */
+           margin-bottom: 30px;
      }
      .img{
         margin: 0 auto;
+        margin-bottom: 20px;
+    }
+    .our-team-div1{
+        display: none;
     }
     /* meet out team section ends here */
     /* unique section start here */
@@ -277,6 +286,43 @@
     }
     
     /* unique section ends here */
+    /* footer part start here  */
+    .main-footers{
+        display: block;
+    }
+    .main-footer1{
+        width: 317px;
+        margin-right: 102px;
+        margin-left: 20px;
+    }
+    .main-footer1 h3{
+        margin-top: 44px;
+    }
+    .main-footer2 h5{
+        margin-top: 30px;
+    }
+    .main-footer3 h5{
+        margin-top: 30px;
+    }
+    .main-footer2{
+        margin-left: 20px;
+    }
+    .main-footer3{
+        margin-left: 20px;
+    }
+    .main-footer1 p{
+        margin-bottom: 30px;
+    }
+    hr{
+        margin-top: 72px;
+    }
+    .footer-last{
+        margin-left: 20px;
+        margin-top: 41px;
+        padding-bottom: 57px;
+    }
+
+    /* footer part start here  */
 }
 
 
