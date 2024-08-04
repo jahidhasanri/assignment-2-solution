@@ -219,6 +219,11 @@
     .input{
         width: 60%;
     }
+    .calculate-btn{
+       width: 224px;
+       height: 54px;
+
+    }
     /* MI Calculator section ends here */ 
     /* meet out team section start here */
     .meet-our-team-info{
@@ -296,7 +301,7 @@
         margin-left: 20px;
     }
     .main-footer1 h3{
-        margin-top: 44px;
+       padding-top: 44px;
     }
     .main-footer2 h5{
         margin-top: 30px;
@@ -314,6 +319,7 @@
         margin-bottom: 30px;
     }
     hr{
+        width: 360px;
         margin-top: 72px;
     }
     .footer-last{
@@ -331,6 +337,104 @@
        margin-left: -900px;
        margin-top: 358px;   
     }
+    body{
+        margin: 0 auto;
+    }
+    .btn-modify{
+        width: 320px;
+        /* margin-left: 20px; */
+    }
 }
-
+@media screen and (max-width:320px)
+{
+    /* body{
+        margin: 0 auto;
+        margin-left: 40px;
+    } */
+    header{
+        width: 360px;
+        margin: 0 auto;
+    }
+    .navbar{
+        max-width: 100%;
+    }
+    .btn1{
+        width: 150px;
+        font-size: 16px;
+        font-weight: 600;
+        line-height: 22px;
+    }
+    .btn2{
+        width: 150px;
+        font-size: 16px;
+        font-weight: 600;
+        line-height: 22px;
+    }
+    .habit-info h3{
+        margin-left:10px;
+        font-size: 30px;
+        font-weight: 800;
+        line-height: 100%;
+    }
+    .run-and-mile{
+        width:350px;
+        margin: 0 auto;
+        margin-left: 20px;
+        margin-top: 50px;
+    }
+    .btn-modify{
+        width: 230px;
+    }
+    .run-and-mile-img{
+        max-width: 17rem;
+    }
+    .bmi-calculator{
+        width:350px;
+        margin-left: 20px;
+    }
+    table{
+        width: 250px;
+    }
+    .all-inputs{
+        width: 80%;
+    }
+    .all-input{
+        width: 100%;
+        gap: 5px;
+        
+    }
+    .input{
+        padding: 10px 20px 10px 15px;
+        gap: 10px;
+    }
+    .input4{
+        padding: 10px 10px 10px 15px;
+    }
+    .input2{
+        padding: 10px 36px 10px 15px;
+    }
+    .btn-modify{
+        width: 320px;
+        /* margin-left: 20px; */
+    }
+    .calculate-btn{
+        width: 320px;
+    }
+    .meet-our-team p{
+        margin-left:20px;
+    }
+    .meet-our-team-img{
+       margin-left:20px;
+    }
+    .join-gym{
+        margin-left: 15px;
+    }
+    footer{
+        width: 350px;
+       margin-left: 15px;
+    }
+    hr{
+        width: 340px;
+    }
+}
 /* navbar responsive part end here for mobile */

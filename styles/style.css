@@ -160,10 +160,11 @@ header{
 }
 .banner-img{
     max-width: 35%;
+   /* background: none; */
 }
 .image{
     position: relative;
-    background: linear-gradient(180.00deg, rgb(17, 17, 17),rgba(119, 119, 119, 0) 100%);
+    /* background: linear-gradient(180.00deg, rgb(17, 17, 17),rgba(119, 119, 119, 0) 100%); */
 }
 .box1{
     width: 193px;
@@ -372,17 +373,9 @@ margin-top: 10px;
     object-position: 74% 22%;
     zoom: 62%;
     margin: 40px 32px 29px 0;
+    border-radius: 18px;
 }
 /* Run an Extra Mile Easily section ends here */
-/* <!-- Trainings and Exercises section start here --> */
-/* .training-exercises{
-    max-width: 66.25rem;
-    margin: 0 auto;
-    border: 2px solid red;
-    margin-top: 100px;
-    margin-bottom: 88px;
-} */
-/* <!-- Trainings and Exercises section ends here --> */
 /* BMI Calculator section start here */
 .bmi-info{
     max-width: 41.9rem;
@@ -868,6 +861,7 @@ margin-bottom: 58px;
     background: rgb(230, 83, 60);
     margin: 0 auto;
     margin-left: 180px;
+    margin-bottom: 43px;
 }
 .gym-btn a{
     text-decoration: none;
@@ -876,7 +870,7 @@ margin-bottom: 58px;
 /* unique section ends here */
 /* footer part start here */
 footer{
-    
+
     max-width: 90rem;
     margin: 0 auto;
     background: rgba(255, 255, 255, 0.1);
